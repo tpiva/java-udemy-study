@@ -109,6 +109,10 @@ public class Campo {
 		marcado = false;
 	}
 	
+	public boolean isMinado() {
+		return minado;
+	}
+	
 	public String toString() {
 		if (marcado) {
 			return "x";
